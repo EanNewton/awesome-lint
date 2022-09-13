@@ -52,8 +52,8 @@ exports.plugins = [
 	// Third-party plugins
 	// Disabled as it throws `file.warn is not a function`
 	// require('remark-lint-no-empty-sections'),
-
-	require('remark-lint-match-punctuation'),
+	// Disabled due to excessive errors in list descriptions from apostrophes.
+	// require('remark-lint-match-punctuation'),
 	require('remark-lint-no-repeat-punctuation'),
 	require('remark-lint-double-link'),
 
